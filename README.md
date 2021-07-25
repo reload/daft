@@ -1,8 +1,8 @@
 ![drupal_small](https://figmage.com/images/IPdWAod-s1xzh1NEJAZSF.png)
 
-# D(A)FT
+## D(A)FT
 
-## Drupal (Awesome) Frontend Tooling
+**Drupal (Awesome) Frontend Tooling**
 
 ### Install
 
