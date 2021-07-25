@@ -1,0 +1,31 @@
+{
+  "name": "@reloaddk/drupal",
+  "version": "0.1.0-alpha.9",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "email": "lasse@reload.dk",
+    "name": "Lasse Borly",
+    "url": "https://github.com/lasseborly/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reload/daft.git",
+    "directory": "packages/drupal"
+  },
+  "engines": {
+    "npm": ">=7"
+  },
+  "peerDependencies": {
+    "@reloaddk/stylelint-recommended": "^0.2.0",
+    "@reloaddk/stylelint-recommended-scss": "^0.3.0",
+    "@swc/cli": "^0.1.46",
+    "@swc/core": "^1.2.66",
+    "chokidar": "^3.5.2",
+    "concurrently": "^6.2.0",
+    "cpx2": "^3.0.0",
+    "eslint-plugin-reload": "^0.2.0",
+    "sass": "^1.35.2",
+    "typescript": "^4.0"
+  }
+}

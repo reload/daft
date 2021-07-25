@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "typecheck:check": "tsc --noEmit",
+    "typecheck:watch": "npm run typecheck:check -- --watch --preserveWatchOutput",
+    "images:build": "cpx 'src/images/**/*' dist/images/ --verbose",
+    "images:watch": "npm run images:build -- --watch",
+    "fonts:build": "cpx 'src/fonts/**/*' dist/fonts/ --verbose",
+    "fonts:watch": "npm run fonts:build -- --watch",
+    "js:build": "swc src --out-dir dist --source-maps",
+    "js:watch": "npm run js:build -- --watch",
+    "css:build": "sass src/scss/:dist/css/",
+    "css:watch": "npm run css:build -- --watch",
+    "watch": "concurrently 'npm:typecheck:watch' 'npm:js:watch' 'npm:css:watch' 'npm:images:watch' 'npm:fonts:watch'",
+    "build": "concurrently 'npm:typecheck:check' 'npm:js:build' 'npm:css:build' 'npm:images:build' 'npm:fonts:build'"
+  }
+}

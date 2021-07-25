@@ -1,0 +1,3 @@
+{
+  "extends": ["plugin:reload/recommended"]
+}

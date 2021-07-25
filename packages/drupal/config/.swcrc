@@ -1,0 +1,18 @@
+[
+  {
+    "test": ".*.ts$",
+    "jsc": {
+      "parser": {
+        "syntax": "typescript"
+      }
+    }
+  },
+  {
+    "test": ".*.js$",
+    "jsc": {
+      "parser": {
+        "syntax": "ecmascript"
+      }
+    }
+  }
+]
