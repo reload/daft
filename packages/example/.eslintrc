@@ -1,0 +1,6 @@
+{
+  "extends": ["plugin:reload/recommended"],
+  "env": {
+    "browser": true
+  }
+}

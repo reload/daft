@@ -1,0 +1,19 @@
+@use './colors';
+
+h1 {
+  font-family: "Stick", fantasy;
+}
+
+p {
+  font-family: monospace;
+}
+
+.fruit {
+  color: colors.$base-yellow;
+}
+
+.fruit-image {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}

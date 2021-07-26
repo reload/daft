@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["DOM", "ES2020"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

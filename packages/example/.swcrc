@@ -1,0 +1,20 @@
+[
+  {
+    "test": ".*.ts$",
+    "jsc": {
+      "parser": {
+        "syntax": "typescript"
+      }
+    },
+    "env": {}
+  },
+  {
+    "test": ".*.js$",
+    "jsc": {
+      "parser": {
+        "syntax": "ecmascript"
+      }
+    },
+    "env": {}
+  }
+]

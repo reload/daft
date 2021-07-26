@@ -1,0 +1,27 @@
+{
+  "name": "@reloaddk/example",
+  "version": "0.1.0",
+  "description": "Usage of drupal tooling.",
+  "scripts": {
+    "typecheck:check": "tsc --noEmit",
+    "typecheck:watch": "npm run typecheck:check -- --watch --preserveWatchOutput",
+    "images:build": "cpx 'src/images/**/*' dist/images/ --verbose",
+    "images:watch": "npm run images:build -- --watch",
+    "fonts:build": "cpx 'src/fonts/**/*' dist/fonts/ --verbose",
+    "fonts:watch": "npm run fonts:build -- --watch",
+    "js:build": "swc src --out-dir dist --source-maps",
+    "js:watch": "npm run js:build -- --watch",
+    "css:build": "sass src/scss/base.scss:dist/css/base.css",
+    "css:watch": "npm run css:build -- --watch",
+    "html:build": "cpx 'src/*.html' dist --verbose",
+    "html:watch": "npm run html:build -- --watch",
+    "build": "concurrently 'npm:typecheck:check' 'npm:js:build' 'npm:css:build' 'npm:images:build' 'npm:fonts:build' 'npm:html:build'",
+    "watch": "concurrently 'npm:typecheck:watch' 'npm:js:watch' 'npm:css:watch' 'npm:images:watch' 'npm:fonts:watch' 'npm:html:watch'",
+    "serve": "serve dist/",
+    "start": "concurrently 'npm:watch' 'npm:serve'"
+  },
+  "devDependencies": {
+    "@reloaddk/drupal": "^0.1.0-alpha.9",
+    "serve": "^12.0.0"
+  }
+}
