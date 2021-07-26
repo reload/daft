@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "copy:readme": "cp README.md packages/drupal/README.md",
+    "prepublishOnly": "npm run copy:readme"
+  },
   "workspaces": [
     "./packages/*"
   ],
