@@ -1,5 +1,5 @@
 {
-  "name": "@reloaddk/example",
+  "name": "@reloaddk/drupal-usage-example",
   "version": "0.1.0",
   "description": "Usage of drupal tooling.",
   "scripts": {
