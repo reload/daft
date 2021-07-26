@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:reload/recommended"],
+  "extends": ["plugin:reload/typescript"],
   "env": {
     "browser": true
   }
