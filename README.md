@@ -20,3 +20,8 @@ a good starting point but might as well be used as is.
 
 Copy them into your own project. In root or at custom theme level dependant upon
 your setup.
+
+### [Example](https://daft.netlify.app/)
+
+An example app is provided in `/packages/example`
+and is shown at [https://daft.netlify.app/](https://daft.netlify.app/).
