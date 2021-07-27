@@ -31,7 +31,7 @@
     "start": "concurrently 'npm:watch' 'npm:serve' --raw"
   },
   "devDependencies": {
-    "@reloaddk/drupal": "^0.1.0-beta.3",
+    "@reloaddk/drupal": "^0.1.0-beta.4",
     "@types/jquery": "^3.5.6",
     "@types/lodash": "^4.14.171",
     "serve": "^12.0.0"
