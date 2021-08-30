@@ -7,7 +7,7 @@
 ### Install
 
 ```sh
-npm install @reloaddk/drupal
+npm install @reloaddk/drupal --save-dev
 ```
 
 The above package contains everything you would need to have your frontend up
