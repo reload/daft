@@ -21,6 +21,12 @@ a good starting point but might as well be used as is.
 Copy them into your own project. In root or at custom theme level dependant upon
 your setup.
 
+#### SASS
+
+During development if you aren't able to have SASS changes trigger, remember to
+add `--poll` to your watch script as seen in `example/package.json`, `css:watch`
+command.
+
 ### [Example](https://daft.reload.dk/)
 
 An example app is provided in `/packages/example`
