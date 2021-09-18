@@ -1,7 +1,7 @@
 {
-  "name": "@reloaddk/drupal-usage-example",
+  "name": "@reloaddk/daft-usage-example",
   "version": "0.1.0",
-  "description": "Usage of drupal tooling.",
+  "description": "Usage of daft tooling.",
   "scripts": {
     "typecheck:check": "tsc --noEmit",
     "typecheck:watch": "npm run typecheck:check -- --watch --preserveWatchOutput",
@@ -31,7 +31,7 @@
     "start": "concurrently 'npm:watch' 'npm:serve' --raw"
   },
   "devDependencies": {
-    "@reloaddk/drupal": "^0.1.0-beta.4",
+    "@reloaddk/daft": "^1.0.0",
     "@types/jquery": "^3.5.6",
     "@types/lodash": "^4.14.171",
     "serve": "^12.0.0"
