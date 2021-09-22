@@ -13,7 +13,7 @@
     "js:prettier": "prettier 'src/**/*.{js,ts}'",
     "js:lint": "concurrently 'npm:js:eslint' 'npm:js:prettier -- --check' --raw",
     "js:format": "concurrently 'npm:js:eslint -- --fix' 'npm:js:prettier -- --write' --max-processes 1 --raw",
-    "js:build": "swc src --out-dir dist --source-maps",
+    "js:build": "babel src --out-dir dist --source-maps",
     "js:watch": "npm run js:build -- --watch",
     "css:stylelint": "stylelint 'src/**/*.scss'",
     "css:prettier": "prettier 'src/**/*.scss'",
@@ -31,7 +31,7 @@
     "start": "concurrently 'npm:watch' 'npm:serve' --raw"
   },
   "devDependencies": {
-    "@reloaddk/daft": "^1.0.0",
+    "@reloaddk/daft": "^1.1.0",
     "@types/jquery": "^3.5.6",
     "@types/lodash": "^4.14.171",
     "serve": "^12.0.0"
