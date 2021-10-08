@@ -21,7 +21,7 @@
     "css:watch": "npm run css:build -- --watch",
     "lint": "concurrently 'npm:js:lint' 'npm:css:lint'",
     "format": "concurrently 'npm:js:format' 'npm:css:format'",
-    "build": "concurrently 'npm:typecheck:check' 'npm:js:build' 'npm:css:build' 'npm:images:build' 'npm:fonts:build' -c 'bgBlue.bold,bgYellow.bold,bgMagenta.bold,bgYellow.bold,bgCyan.bold'",
-    "watch": "concurrently 'npm:typecheck:watch' 'npm:js:watch' 'npm:css:watch' 'npm:images:watch' 'npm:fonts:watch' -c 'blue,yellow,magenta,yellow,cyan'"
+    "build": "concurrently 'npm:typecheck:check' 'npm:js:build' 'npm:css:build' 'npm:images:build' 'npm:fonts:build' -c 'bgBlue.bold,bgYellow.bold,bgMagenta.bold,bgGreen.bold,bgCyan.bold'",
+    "watch": "concurrently 'npm:typecheck:watch' 'npm:js:watch' 'npm:css:watch' 'npm:images:watch' 'npm:fonts:watch' -c 'blue,yellow,magenta,green,cyan'"
   }
 }
