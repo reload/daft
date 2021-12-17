@@ -8,6 +8,13 @@
     "name": "Lasse Borly",
     "url": "https://github.com/lasseborly/"
   },
+  "maintainers": [
+    {
+      "email": "mb@reload.dk",
+      "name": "Mikkel Blyme",
+      "url": "https://github.com/mikkelblyme"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/reload/daft.git",
