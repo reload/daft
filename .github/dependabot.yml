@@ -6,4 +6,4 @@ updates:
       interval: monthly
       timezone: Europe/Copenhagen
     reviewers:
-      - mikkelblyme
+      - "reload/developers"
