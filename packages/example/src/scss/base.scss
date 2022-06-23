@@ -1,4 +1,4 @@
-@use './colors';
+@use "./colors";
 
 h1 {
   font-family: "Stick", fantasy;
@@ -9,7 +9,7 @@ p {
 }
 
 .fruit {
-  color: colors.$base-yellow;
+  color: colors.$base-green;
 }
 
 .fruit-image {
