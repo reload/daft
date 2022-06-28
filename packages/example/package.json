@@ -1,6 +1,6 @@
 {
   "name": "@reloaddk/daft-usage-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Usage of daft tooling.",
   "scripts": {
     "typecheck:check": "tsc --noEmit",
@@ -31,7 +31,7 @@
     "start": "concurrently 'npm:watch' 'npm:serve' --raw"
   },
   "devDependencies": {
-    "@reloaddk/daft": "^1.2.0",
+    "@reloaddk/daft": "^1.2.2",
     "@types/jquery": "^3.5.14",
     "@types/lodash": "^4.14.182",
     "serve": "^13.0.2"
