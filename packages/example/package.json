@@ -33,7 +33,7 @@
   "devDependencies": {
     "@reloaddk/daft": "^1.2.2",
     "@types/jquery": "^3.5.14",
-    "@types/lodash": "^4.14.182",
+    "@types/lodash": "^4.14.191",
     "serve": "^13.0.2"
   }
 }
