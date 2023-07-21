@@ -3,7 +3,7 @@
     "./packages/*"
   ],
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^3.0.0"
   },
   "version": "1.2.2"
 }
